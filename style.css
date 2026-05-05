@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #555;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.card {
+    background: lightgray;
+    padding: 20px;
+    text-align: center;
+}
